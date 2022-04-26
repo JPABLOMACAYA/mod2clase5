@@ -1,8 +1,8 @@
 function sumArray (arregloIngresado) {
 
-    var arreglo = arregloIngresado
+    var arreglo = arregloIngresado;
  
-    var sumatoria = 0
+    var sumatoria = 0;
     
     for (var i = 0; i < arreglo.length; i ++) {
         
@@ -10,7 +10,7 @@ function sumArray (arregloIngresado) {
         
     }
     
-    console.log(sumatoria)
+    console.log(sumatoria);
 }
 sumArray([1,2,3])            //Comprobación 1
 sumArray([10,3,10,4])        //comprobación 2
